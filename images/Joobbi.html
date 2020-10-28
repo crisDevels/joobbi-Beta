@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/DELL/Documents/Joobbi-VanillaJS/Registro/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="stylesheet" href="./Joobbi_files/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joobbi</title>
+</head>
+<body>
+  <header>
+    <div class="block-buttons-inicio">
+      <div class="wrapper-nav-inicio">
+      <div id="overlay"></div>
+        <div class="container-navBar-Landing">
+          <div class="logo-container">
+            <a href="file:///C:/">
+              <img width="50px" src="./Joobbi_files/logo-Joobbi-Short.svg" alt="logo Joobbi png sin fondo">
+            </a>  
+          </div>
+          <div class="burguer-menu">
+            <div class="burguer-icon">
+              <div class="burguer-icon-sub-"></div>
+              <div class="burguer-icon-inf-"></div>
+            </div>
+          </div>
+          <div class="burguer-menu-cerrar">
+            <div class="burguer-icon">
+              <div class="burguer-icon-sub"></div>
+              <div class="burguer-icon-inf"></div>
+            </div>
+          </div>
+          <div class="buttons-container">
+            <ul class="list-buttons-nav">
+              <li class="list-item-nav">
+                <a href="https://joobbi.com/blog/">
+                  <button class="button-nav">Blog <hr class="border-button-botom"></button>
+                </a>
+              </li>
+              <li class="list-item-nav">
+                <a href="file:///C:/">
+                  <button class="button-nav">Conócenos <hr class="border-button-botom"></button>
+                </a>
+              </li>
+              <li class="list-item-nav">
+                <a href="https://joobbi.com/soy-freelancer/">
+                  <button class="button-nav"> Soy freenlacer <hr class="border-button-botom"></button>
+                </a>
+              </li>
+              <li class="list-item-nav">
+                <a href="https://joobbi.com/solicitud-servicios/">
+                  <button class="button-inicio" onclick="{this.abrirModalInicio}"> Contacta un freelancer </button>  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-block-hero"></div>
+  <div class="block-form-relative">
+    <div class="wrapper-form">
+      <div class="container-form-scroll">
+        <div class="form-hubspot">
+          <!--formulario de contratantes-->
+          <!--<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+              portalId: "8568321",
+              formId: "2529894a-3dcd-4829-9dd8-1227c3d1ab25"
+            });
+          </script>-->
+          <!--formulario de contratantes-->
+          <!-- 
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+	          portalId: "8568321",
+	          formId: "d3f52eb5-6285-4eac-944c-8b3f8d5dbfe4"
+          }); -->
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./Joobbi_files/jquery.min.js.descarga"></script>
+  <script>
+    const $burguerMenu = document.querySelector('.burguer-menu')
+    const $burguerMenuCerrar = document.querySelector('.burguer-menu-cerrar')
+    const $burgueIconSub = document.querySelector('.burguer-icon-sub')
+    const $burgueIconInf = document.querySelector('.burguer-icon-inf')
+    const $modalButtonsNav = document.querySelector('.buttons-container')
+    const $body = document.querySelector('body')
+
+    $burguerMenu.addEventListener('click', () => {
+      $burguerMenu.classList.add('desactive')
+      $burguerMenuCerrar.classList.add('active')
+      $burgueIconSub.style.animation = 'iconSub .8s forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s forwards'
+      $modalButtonsNav.classList.add('active')
+      $body.classList.add('hidden')
+    })
+
+    $burguerMenuCerrar.addEventListener('click', () => {
+      $burguerMenu.classList.remove('desactive')
+      $burguerMenuCerrar.classList.remove('active')
+      $burgueIconSub.style.animation = 'iconSub .8s reverse forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s reverse forwards'
+      $modalButtonsNav.classList.remove('active')
+      $body.classList.remove('hidden')
+    })
+  </script>
+
+</body></html>

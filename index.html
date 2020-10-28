@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joobbi</title>
+</head>
+<body>
+  <header>
+    <div class= 'block-buttons-inicio'>
+      <div class= 'wrapper-nav-inicio'>
+      <div id='overlay'></div>
+        <div class="container-navBar-Landing">
+          <div class='logo-container'>
+            <a href='/'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/logo-Joobbi-Short.svg' alt='logo Joobbi png sin fondo' />
+            </a>  
+          </div>
+          <div class='burguer-menu'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub-'></div>
+              <div class='burguer-icon-inf-'></div>
+            </div>
+          </div>
+          <div class='burguer-menu-cerrar'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub'></div>
+              <div class='burguer-icon-inf'></div>
+            </div>
+          </div>
+          <div class='buttons-container'>
+            <ul class='list-buttons-nav'>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/blog/'>
+                  <button class='button-line-white'>Blog<hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='/somos-joobbi'>
+                  <button class='button-line-white'>Conócenos<hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/soy-freelancer/'>
+                  <button class='button-line-white'> Soy freenlacer<hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/solicitud-servicios/'>
+                  <button class='button-joobbi-white' onClick={this.abrirModalInicio}> Contacta un freelancer </button>  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class='container-block-hero'></div>
+  <div class='container-hero-resume'></div>
+  <div class='button-container-resume1'></div>
+  <div class='button-container-resume2'></div>
+  <div class='button-container-resume'>
+    <img class='arrow-button' src='http://joobbi.com/wp-content/uploads/2020/10/arrow-function-up.svg' alt='icono para hacer swip up' />
+  </div>
+  <div class='button-container-resume-close'>
+    <img class='arrow-button-close' src='http://joobbi.com/wp-content/uploads/2020/10/arrow-function-up.svg' alt='icono para hacer swip in' />
+  </div>
+  <div class='container-hero-design-resume'>
+    <div class='wrapper-hero-landing'>
+      <div class='info-resume-curriculum'>
+        <div>
+          <h2 class='title-update-resume'>Actualiza tu hoja de vida ahora</h2>
+          <a href='/resume-design'>
+            <button class='button-joobbi'>Vamos</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block-content-hero">
+    <div class='wrapper-hero-landing'>
+      <div class='container-logo-hero'>
+        <div class='div-logo-texto'>
+          <img width='500px' src='http://joobbi.com/wp-content/uploads/2020/10/logo-Joobbi.svg' alt='LOGO png Joobbi sin fondo' class='styles-logo-hero' />
+          <h1 class='hero-text'>Somos el futuro del trabajo y una auténtica comunidad de freelancers </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='block-carrusel-relative'>
+    <div class='wrapper-most-popular'>
+      <p class='title-carrusel'>Trabajos destacados</p>
+      <div class='container-box-popular'>
+        <div class='container-scroll-popular'>
+          <ul class='list-pupular-most'>
+            <li>
+              <a href='https://joobbi.com/resume-design/'>
+                <div class="sector-item-popular">
+                  <img src='https://portafolio.co/files/article_content/uploads/2017/07/14/596949bd9233f.jpeg' alt='imagen de sector' class='imagen-sector' />
+                  <h2 class='text-sector-popular'>Resume Design</h2>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href='https://joobbi.com/servicios-freelancers/'>
+                <div class="sector-item-popular">
+                    <img src='https://www.asdeideas.es/wp-content/uploads/2017/09/branding-corporativo-madrid.jpg' alt='imagen de sector' class='imagen-sector' />
+                    <h2 class='text-sector-popular'>Branding Corporativo</h2>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href='https://joobbi.com/servicios-freelancers/'>
+                <div class="sector-item-popular">
+                    <img src='https://www.designveloper.com/wp-content/uploads/2019/11/Pharmagy-Medical-App-Sketchapp.jpg' alt='imagen de sector' class='imagen-sector' />
+                    <h2 class='text-sector-popular'>Diseño de apps </h2>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href='https://joobbi.com/servicios-freelancers/'>
+                <div class="sector-item-popular">
+                    <img src='https://miro.medium.com/max/12000/1*UYuLF_F5HEE_F-fypvQkKQ.jpeg' alt='imagen de sector' class='imagen-sector' />
+                    <h2 class='text-sector-popular'>Copywriting para socialmedia </h2>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href='https://joobbi.com/servicios-freelancers/'>
+                <div class="sector-item-popular">
+                    <img src='https://cdn.joinnus.com/blog/wp-content/uploads/2019/04/02170313/develop.jpg' alt='imagen de sector' class='imagen-sector' />
+                    <h2 class='text-sector-popular'>Desarrollo de APIs</h2>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href='https://joobbi.com/servicios-freelancers/'>
+                <div class="sector-item-popular">
+                    <img src='https://i0.wp.com/20htalent.es/wp-content/uploads/2018/07/Landing-pages-background.jpg?w=1300&ssl=1' alt='imagen de sector' class='imagen-sector' />
+                    <h2 class='text-sector-popular'>Desarrollo web</h2>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href='https://joobbi.com/servicios-freelancers/'>
+                <div class="sector-item-popular">
+                    <img src='https://www.3dnatives.com/en/wp-content/uploads/sites/2/2020/07/cover.jpg' alt='imagen de sector' class='imagen-sector' />
+                    <h2 class='text-sector-popular'>Modelado 3d </h2>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='block-why-joobbi'>
+    <div class='wrapper-why-joobbi'>
+      <div class='col-1-100'>
+        <div class='flex-title-why'>
+          <h3 class='title-why-joobbi'>¿Porqué Joobbi?</h3>
+          <div class='button-flex-why'>
+            <div class='buttons-50'>
+              <a href='https://joobbi.com/soy-freelancer/'><button class='button-line'>Ofrece tus servicios <hr class='border-button-botom-line'></hr></button></a>
+            </div>
+            <div class='buttons-50'>
+              <a href='https://joobbi.com/solicitud-servicios/'><button class='button-joobbi'>Contacta un freelancer </button></a>
+            </div>
+          </div>
+        </div>
+        <ul class='list-why-joobbi'>
+          <li class='item-list-why'>
+            <img width='80px' src='http://joobbi.com/wp-content/uploads/2020/10/ContratanteIcon.svg' alt='icon de servicios profesionales' />
+            <h2 class='subtitle-why'>Ofrece tus servicios profesionales</h2>
+            <p class='p-why-description'>En Joobbi, puedes inscribir tu perfil profesional de manerá ágil y dinámica.</p>
+          </li>
+          <li class='item-list-why'>
+            <img width='80px' src='http://joobbi.com/wp-content/uploads/2020/10/ProjectsIcon.svg' alt='icon de servicios profesionales' />
+            <h2 class='subtitle-why'>Emprende tus proyectos</h2>
+            <p class='p-why-description'>Aquí accedes a profesionales altamente capacitados para tus trabajos o proyectos, ¡No demores más tu busqueda de talento!</p>
+          </li>
+          <li class='item-list-why'>
+            <img width='80px' src='http://joobbi.com/wp-content/uploads/2020/10/NecesidadIcon.svg' alt='icon de servicios profesionales' />
+            <h2 class='subtitle-why'>Entendemos tus necesidades</h2>
+            <p class='p-why-description'>Estudiamos los perfiles profesionales y aquellos proyectos que generan conexiones genuinas.</p>
+          </li>
+        </ul>
+        <div class='button-flex-why-phone'>
+          <div class='buttons-50'>
+            <a href='https://joobbi.com/soy-freelancer/'><button class='button-line'>Ofrece tus servicios <hr class='border-button-botom-line'></hr></button></a>
+          </div>
+          <div class='buttons-50'>
+            <a href='https://joobbi.com/solicitud-servicios/'><button class='button-joobbi'>Contacta un freelancer </button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='container-areas-title'>
+    <div class='block-areas-list'>
+    </div>
+    <div class="block-items">
+      <div class='wrapper-areas'>
+        <h3 class='title-gran-areas'>Nuestras áreas</h3>
+        <div class='center-items'>
+          <ul class='areas-list'>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/DesarrolloWeb-Icon.svg' alt='sector desarrollo web' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Desarrollo web </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/DesarrolloDeApps-Icon.svg' alt='sector desarrollo app moviles' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Desarrollo de apps </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/RedaccionDeContenidos-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Redacción de contenido </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/Disenoarquitecturayaudiovisual-icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Diseño, arquitectura y audiovisual </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/AdministracionManejoDatos-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Administración y manejo de datos </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/IngenieriasCiencias-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Ingeniería y ciencia </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/ProduccionManufactura-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Producción y manufactura </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/LogisticaTransporte-Icon-1.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Logística y transporte  </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/VentasMarketing-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Marketing y ventas </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/RRHH-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Finanzas, RRHH y legal </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/Traduccion-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Traducción e idiomas </button>
+              </div>
+            </li>
+            <li class='areas-item-list'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/ServiciosOficiosGenerales-Icon.svg' alt='sector Copywriting' />
+              <div class='div-button-areas'>
+                <button class='button-line-white'>Servicios y oficios generales </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='block-how-landing'>
+    <div class='wrapper-function'>
+      <div class='title-block-landing'>
+        <div class='flex-title-how'>
+          <h2 class='title-how-function'>¿Cómo funciona?</h2>
+          <div class='buttons-how'>
+            <div class='buttons-50'>
+              <button class='buttonFreelancer'>Freelancers </button>
+            </div>
+            <div class='buttons-50'>
+              <button class='buttonContratante'>Contratantes </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='container-paso-paso'>
+        <div class='independiente'>    
+          <div class='pasoApaso'>
+            <div class='line-time-animation'></div>
+            <div class='paso-paso'>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>01</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Regístrate</h3>
+                    <p class='textActive'>Completa el formulario y forma parte de la comunidad.</p>
+                  </div> 
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>02</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Adjunta tu HV</h3>
+                    <p class='textActive'>Tu hoja de vida genera un 61% más de confianza para los contratantes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>03</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Visibilizamos tu perfil</h3>
+                    <p class='textActive'>Nuestro equipo establece los servicios ideales según tu perfil.</p>
+                  </div>       
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>04</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Evalua propuestas</h3>
+                    <p class='textActive'>Realizamos la conexión entre clientes y freelancers.</p>
+                  </div>      
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>05</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Trabaja y cobra</h3>
+                    <p class='textActive'>Entrega trabajos de alta calidad y establece el valor.</p>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='contratante'>
+          <div class='pasoApaso'>
+            <div class='line-time-animation'></div>
+            <div class='paso-paso'>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>01</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Regístrate</h3>
+                    <p class='textActive'>Completa el formulario y forma parte de la comunidad.</p>
+                  </div>
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>02</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Publica tu proyecto</h3>
+                    <p class='textActive'>Adjunta la información necesaria para su desarrollo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>03</h4>
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Visibilizamos tu idea o trabajo</h3>
+                    <p class='textActive'>Nuestro equipo selecciona los freelancers ideales según tu solicitud.</p>
+                  </div>
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>04</h4>  
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Elige al freelancer</h3>
+                    <p class='textActive'>Te envíamos los perfiles que mejor se acoplan a tu proyecto.</p>
+                  </div>
+                </div>
+              </div>
+              <div class='paso'>
+                <div class='container-paso-number'>
+                  <div class='iconComo'>
+                    <h4 class='number-paso'>05</h4>  
+                  </div>
+                </div>
+                <div class='container-text-paso'>
+                  <div class='swiftActive'>
+                    <h3>Revisa y paga</h3>
+                    <p class='textActive'>Cuando estes conforme con el trabajo, podrás pagar el valor acordado.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='block-blog'>
+    <div class='wrapper-landing'>
+      <h3 class='title-landing-joobbi'>Blog Joobbi</h3>
+      <div class='block-list-blog'>
+        <div class='scroll-blog'>
+          <ul class='list-ul-blog-landing'>
+            <li class='list-item'>
+              <div class='block-list-blog'>
+                <img src='https://mba.americaeconomia.com/sites/mba.americaeconomia.com/files/styles/article_main_image/public/field/image/freelancer.jpg?itok=Jg7D8lZ_' class="image-blog-landing" />
+                <div class='container-date-blog'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/DesarrolloWeb-Icon.svg' alt='icon sector desarrollo web' width='30px' />
+                </div>
+                <div class='container-title-description-blog'>
+                  <p class='title-blog-landing'>Yo prefiero ser freelancer</p>
+                  <p class='description-blog-landing'>Muchos jovenes emprendedores empezaron su camino laboral siendo Freelancer.</p>
+                </div>
+              </div>
+            </li>
+            <li class='list-item'>
+              <div class='block-list-blog'>
+                <img src='https://www.ecestaticos.com/image/clipping/654/954a653380318de544daa729c4aef68c/imagen-sin-titulo.jpg' class="image-blog-landing" />
+                <div class='container-date-blog'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/DesarrolloWeb-Icon.svg' alt='icon sector desarrollo web' width='30px' />
+                </div>
+                <div class='container-title-description-blog'>
+                  <p class='title-blog-landing'>Nuevos trabajos para el 2021</p>
+                  <p class='description-blog-landing'>Tras la llegada del Covid-19, nuevos trabajos han surgido ¡Descubre cuales!</p>
+                </div>
+              </div>
+            </li>
+            <li class='list-item'>
+              <div class='block-list-blog'>
+                <img src='https://www.ecestaticos.com/imagestatic/clipping/441/297/441297f57bb345646ab51b866479ba50/chateas-con-amigos-en-la-oficina-como-usar-tu-pc-en-el-trabajo-de-forma-segura.jpg?mtime=1579565836' class="image-blog-landing" />
+                <div class='container-date-blog'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/VentasMarketing-Icon.svg' alt='icon sector desarrollo web' width='30px' />
+                </div>
+                <div class='container-title-description-blog'>
+                  <p class='title-blog-landing'>Planeación estratégica (5 metodologias prácticas)</p>
+                  <p class='description-blog-landing'>Administra mejor tus recursos, sabías que puedes mejorar un 70% tu velocidad.</p>
+                </div>
+              </div>
+            </li>
+            <li class='list-item'>
+              <div class='block-list-blog'>
+                <img src='https://latinoamerica.autodesk.com/content/dam/autodesk/www/products/autodesk-3dsmax/fy20/features/images/improved-viewport-quality-large-1920x1004.jpg' class="image-blog-landing" />
+                <div class='container-date-blog'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/ProduccionManufactura-Icon.svg' alt='icon sector desarrollo web' width='30px' />
+                </div>
+                <div class='container-title-description-blog'>
+                  <p class='title-blog-landing'>5 librerias 3D para tus diseños</p>
+                  <p class='description-blog-landing'>Accede ahora mismo y descrubre cientos de recursos gratuitos.</p>
+                </div>
+              </div>
+            </li>
+            <li class='list-item'>
+              <div class='block-list-blog'>
+                <img src='https://einatec.com/wp-content/uploads/2019/02/diseno-grafico-publicitario-1000x570.jpg' class="image-blog-landing" />
+                <div class='container-date-blog'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/Disenoarquitecturayaudiovisual-icon.svg' alt='icon sector desarrollo web' width='30px' />
+                </div>
+                <div class='container-title-description-blog'>
+                  <p class='title-blog-landing'>Descubre como puedes transformar tu empresa</p>
+                  <p class='description-blog-landing'>Una excelente herramienta crea contenido para impulsar la imagen de tu empresa.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class='block-button-blog'>
+          <a href='https://joobbi.com/blog/'>
+            <button class='button-joobbi'>Ver más</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='wrapper-call-to'>
+    <div class='block-call-to'>
+      <div class='flex-container-call-to'>
+          <div class='block-text-button-call'>
+              <div class='container-text-call'>
+                  <p class='p-styles-call'>
+                  En Joobbi encuentras el talento ideal para desarrollar
+                  tu idea o proyecto.
+                  </p>
+              </div>
+              <div class='button-flex-call'>
+                <div class='buttons-50'>
+                  <a href='https://joobbi.com/soy-freelancer/'><button class='button-line-white'>Ofrece tus servicios <hr class='border-button-botom-line-white'></hr></button></a>
+                </div>
+                <div class='buttons-50'>
+                  <a href='https://joobbi.com/solicitud-servicios/'><button class='button-joobbi'>Contacta un freelancer </button></a>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-block-footer">
+      <div class="wrapper-home">
+        <div class="footer-container">
+          <div class="footer-flex">
+            <span class="logofooter">
+              <p class="logo-footer-case">Joobbi © 2020</p>
+            </span>
+            <ol class="listTerms">
+              <li>
+                <a href="/terminos">Términos</a>
+              </li>
+            </ol>
+            <div class="socialMedia">
+              <a target='_blank' href="https://youTube.com/channel/UCm9SvjlV-2Z4cEdlLgGf8TQ"><img src='http://joobbi.com/wp-content/uploads/2020/10/FacebookIcon.svg' alt='icon de facebook png sin fondo'/></a>
+              <a target='_blank' href="https://instagram.com/net_540"><img src='http://joobbi.com/wp-content/uploads/2020/10/InstagramIcon.svg' alt='icon de facebook png sin fondo'/></a>
+              <a target='_blank' href="htts://linkedin.com/company/campaña-540"><img src='http://joobbi.com/wp-content/uploads/2020/10/LinkedinIcon.svg' alt='icon de facebook png sin fondo'/></a>
+              <a target='_blank' href="https://facebook.com/net540"><img src='http://joobbi.com/wp-content/uploads/2020/10/youTubeIcon.svg' alt='icon de facebook png sin fondo'/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+    // llamadas a los query de modales freelancers
+    const $buttonFreelancer = document.querySelector('.buttonFreelancer')
+    const $buttonContratante = document.querySelector('.buttonContratante')
+    const $containerFreelancer = document.querySelector('.independiente')
+    const $containerContratante = document.querySelector('.contratante')
+    
+    // llamadas a los query de burguer menu
+    const $burguerMenu = document.querySelector('.burguer-menu')
+    const $burguerMenuCerrar = document.querySelector('.burguer-menu-cerrar')
+    const $burgueIconSub = document.querySelector('.burguer-icon-sub')
+    const $burgueIconInf = document.querySelector('.burguer-icon-inf')
+    const $modalButtonsNav = document.querySelector('.buttons-container')
+    const $body = document.querySelector('body')
+
+    // llamadas a los query de hero landing
+    const $buttonArrow = document.querySelector('.button-container-resume')
+    const $buttonArrowClose = document.querySelector('.button-container-resume-close')
+    const $arrowClose = document.querySelector('.arrow-button-close')
+    const $imageBackgroundJoobi = document.querySelector('.container-block-hero')
+    const $imageBackgroundResume = document.querySelector('.container-hero-resume')
+    const $blockHeroJoobi = document.querySelector('.block-content-hero')
+    const $blockHeroResume = document.querySelector('.container-hero-design-resume')
+
+    // Evento para desaparacer el hero de joobbi
+    $buttonArrow.addEventListener('click', () => {
+      $buttonArrow.classList.add('desactive')
+      $buttonArrowClose.classList.add('active')
+      $buttonArrowClose.style.animation = 'arrowRotate 1s forwards'
+      $imageBackgroundJoobi.style.animation = "swipAnimation 1s forwards"
+      $blockHeroJoobi.classList.add('desactive')
+      $blockHeroResume.classList.add('active')
+    })
+
+    // Evento para aparacer el hero de joobbi
+    $buttonArrowClose.addEventListener('click', () => {
+      $buttonArrow.classList.remove('desactive')
+      $buttonArrowClose.classList.remove('active')
+      $buttonArrow.style.animation = 'arrowRotate0 1s forwards'
+      $imageBackgroundJoobi.style.animation = "swipAnimationIn 1s forwards"
+      $blockHeroJoobi.classList.remove('desactive')
+      $blockHeroResume.classList.remove('active')
+    })
+
+    // Evento de activar la info sobre paso a paso Freelancer
+    $buttonFreelancer.addEventListener("click", () => {
+      $buttonFreelancer.classList.remove('desactive')
+      $buttonContratante.classList.remove('active')
+      $containerContratante.classList.remove('active')
+      $containerFreelancer.classList.remove('desactive')
+      $containerFreelancer.classList.add('active')
+    })
+
+    // Evento de activar la info sobre paso a paso Contratante
+    $buttonContratante.addEventListener("click", () => {
+      $buttonFreelancer.classList.add('desactive')
+      $buttonContratante.classList.add('active')
+      $containerContratante.classList.add('active')
+      $containerFreelancer.classList.add('desactive')
+    })
+
+    $burguerMenu.addEventListener('click', () => {
+      $burguerMenu.classList.add('desactive')
+      $burguerMenuCerrar.classList.add('active')
+      $burgueIconSub.style.animation = "iconSub .8s forwards"
+      $burgueIconInf.style.animation = "iconInf .8s forwards"
+      $modalButtonsNav.classList.add('active')
+      $body.classList.add('hidden')
+    })
+
+    $burguerMenuCerrar.addEventListener('click', () => {
+      $burguerMenu.classList.remove('desactive')
+      $burguerMenuCerrar.classList.remove('active')
+      $burgueIconSub.style.animation = "iconSub .8s reverse forwards"
+      $burgueIconInf.style.animation = "iconInf .8s reverse forwards"
+      $modalButtonsNav.classList.remove('active')
+      $body.classList.remove('hidden')
+    })
+  </script>
+</body>
+</html>

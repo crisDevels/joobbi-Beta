@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='styles.css' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Joobbi</title>
+</head>
+<body>
+  <header>
+    <div class= 'block-buttons-inicio'>
+      <div class= 'wrapper-nav-inicio'>
+      <div id='overlay'></div>
+        <div class='container-navBar-Landing'>
+          <div class='logo-container'>
+            <a href='/'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/logo-Joobbi-Short.svg' alt='logo Joobbi png sin fondo' />
+            </a>  
+          </div>
+          <div class='burguer-menu'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub-'></div>
+              <div class='burguer-icon-inf-'></div>
+            </div>
+          </div>
+          <div class='burguer-menu-cerrar'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub'></div>
+              <div class='burguer-icon-inf'></div>
+            </div>
+          </div>
+          <div class='buttons-container'>
+            <ul class='list-buttons-nav'>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/blog/'>
+                  <button class='button-line-white'>Blog <hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='/somos-joobbi'>
+                  <button class='button-line-white'>Conócenos <hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/soy-freelancer/'>
+                  <button class='button-line-white'> Soy freenlacer <hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/solicitud-servicios/'>
+                  <button class='button-joobbi-white' onClick={this.abrirModalInicio}> Contacta un freelancer </button>  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class='container-block-hero'></div>
+  <div class='block-form-relative'>
+    <div class='wrapper-form'>
+      <div class='container-registre-joobbi'>
+        <div class='container-cabecera-joobbi'>
+          <div>
+            <!-- <h2 class='title-form'>Registro Freelancers</h2> -->
+            <h2 class='title-form'>Solicita un freelancer</h2>
+            <p class='p-hero-form'>Un gusto tenerte aquí con nosotros.</p>
+          </div>
+          <img class='image-icon-joobbi' src='http://joobbi.com/wp-content/uploads/2020/10/icon-freelancer-joobbi.svg' alt='somos Joobbi una comunidad' width='20px' />
+        </div>
+        <div class='container-form-scroll'>
+          <div class='form-hubspot'>
+            <!--formulario de contratantes-->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+            <script>
+              hbspt.forms.create({
+                portalId: "8568321",
+                formId: "2529894a-3dcd-4829-9dd8-1227c3d1ab25"
+              });
+            </script>
+            <!--formulario de freelancer-->
+            
+            <!-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+            <script>
+              hbspt.forms.create({
+              portalId: "8568321",
+              formId: "d3f52eb5-6285-4eac-944c-8b3f8d5dbfe4"
+            });
+            </script> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script>
+    const $burguerMenu = document.querySelector('.burguer-menu')
+    const $burguerMenuCerrar = document.querySelector('.burguer-menu-cerrar')
+    const $burgueIconSub = document.querySelector('.burguer-icon-sub')
+    const $burgueIconInf = document.querySelector('.burguer-icon-inf')
+    const $modalButtonsNav = document.querySelector('.buttons-container')
+    const $body = document.querySelector('body')
+
+    $burguerMenu.addEventListener('click', () => {
+      $burguerMenu.classList.add('desactive')
+      $burguerMenuCerrar.classList.add('active')
+      $burgueIconSub.style.animation = 'iconSub .8s forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s forwards'
+      $modalButtonsNav.classList.add('active')
+      $body.classList.add('hidden')
+    })
+
+    $burguerMenuCerrar.addEventListener('click', () => {
+      $burguerMenu.classList.remove('desactive')
+      $burguerMenuCerrar.classList.remove('active')
+      $burgueIconSub.style.animation = 'iconSub .8s reverse forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s reverse forwards'
+      $modalButtonsNav.classList.remove('active')
+      $body.classList.remove('hidden')
+    })
+  </script>
+</body>
+</html>

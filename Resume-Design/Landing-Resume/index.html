@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='styles.css' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Joobbi</title>
+</head>
+<body>
+  <header>
+    <div class= 'block-buttons-inicio'>
+      <div class= 'wrapper-nav-inicio'>
+      <div id='overlay'></div>
+        <div class='container-navBar-Landing'>
+          <div class='logo-container'>
+            <a href='/'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/logo-Joobbi-Short.svg' alt='logo Joobbi png sin fondo' />
+            </a>  
+          </div>
+          <div class='burguer-menu'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub-'></div>
+              <div class='burguer-icon-inf-'></div>
+            </div>
+          </div>
+          <div class='burguer-menu-cerrar'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub'></div>
+              <div class='burguer-icon-inf'></div>
+            </div>
+          </div>
+          <div class='buttons-container'>
+            <ul class='list-buttons-nav'>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/blog/'>
+                  <button class='button-line-white'>Blog <hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='/'>
+                  <button class='button-line-white'>Conócenos <hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/soy-freelancer/'>
+                  <button class='button-line-white'> Soy freenlacer <hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/solicitud-servicios/'>
+                  <button class='button-joobbi-white' onClick={this.abrirModalInicio}> Contacta un freelancer </button>  
+                </a>
+                <div class='circle-animation-static'></div>
+                <div class='circle-animation-uno'></div>
+                <div class='circle-animation-dos'></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class='container-block-hero'></div>
+  <div class="block-content-hero">
+    <div class='wrapper-hero-landing'>
+      <div class='container-logo-hero'>
+        <div class='div-logo-texto-image'>
+          <img class='imagen-cv-vieja' src='http://joobbi.com/wp-content/uploads/2020/10/Hoja-de-Vida-vieja.png' alt='copy image resume' />
+          <img class='imagen-cv-nueva' src='http://joobbi.com/wp-content/uploads/2020/10/Hoja-de-Vida-nueva.png' alt='copy image resume' />
+        </div>
+        <div class='div-logo-texto'>
+          <h1 class='hero-text'>¿Por qué actualizar tu HV?</h1>
+          <p class='subtitle-hero-resume'>
+            Tenemos la capacidad de reconocer tus necesidades, desarrollando un curriculum más llamativo para los clientes. ¡Con poca o amplia experiencia! Este servicio ha sido diseñado especialmente para ti.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='block-why-joobbi'>
+    <div class='wrapper-why-joobbi'>
+      <div class='col-1-100'>
+        <ul class='list-why-joobbi'>
+          <li class='item-list-why'>
+            <img width='80px' src='http://joobbi.com/wp-content/uploads/2020/10/IconBeneficts1.svg' alt='icon de servicios profesionales' />
+            <h2 class='subtitle-why'>Asesoría personalizada</h2>
+            <p class='p-why-description'>Generamos un vínculo único para que tu y nuestro equipo de diseño interpreten tus aspiraciones laborales.
+              De esta forma, determinamos tu producto ideal.</p>
+          </li>
+          <li class='item-list-why'>
+            <img width='80px' src='http://joobbi.com/wp-content/uploads/2020/10/IconBenefictsJoobbi2.svg' alt='icon de servicios profesionales' />
+            <h2 class='subtitle-why'>Contenido de Valor</h2>
+            <p class='p-why-description'>Nuestra metodología fue diseñada para brindarte herramientas y estrategias necesarias para enfrentar el reto que implica acceder a trabajos.</p>
+          </li>
+          <li class='item-list-why'>
+            <img width='80px' src='http://joobbi.com/wp-content/uploads/2020/10/IconBenefictsJoobbi3.svg' alt='icon de servicios profesionales' />
+            <h2 class='subtitle-why'>Resultados Reales</h2>
+            <p class='p-why-description'>Ten la seguridad que el tiempo y la inversión que depositas en nuestros servicios darán resultados positivos durante tu carrera profesional.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class='block-plans'>
+    <div class='wrapper-plans'>
+      <div class='container-title-plans'>
+        <h3 class='title-plans'>Elige un plan</h3>
+        <p class='p-title-plans'>Determina el tipo de plan para comenzar con el diseño de tu HV.</p>
+      </div>
+      <div class='flex-compare-plans'>
+        <div class="block-compare-1">
+          <h2 class='title-compare'>Compara los beneficios</h2>
+        </div>
+        <div class="block-compare-2">
+          <div class='col-plans-50'>
+            <button class='basic-button'> BASIC</button>
+          </div>
+          <div class='col-plans-50'>
+            <button class='expert-button'> EXPERT</button>
+          </div>
+        </div>
+      </div>
+      <div class='container-items-phone'>
+        <ul class='list-phone-plans-basic'>
+          <li class='container-precio'>
+            <p class='p-precio'><strong class='strong-precio'>13</strong>,25 USD</p>
+            <button class='basic-button-compra'> Adquirir</button>
+            <div class='modal-basic-form'>
+              <div class='div-button-close'>
+                <h4 class='title-datos-facture'>Datos de facturación</h4>
+                <button class='close-modal-basic'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/CloseIcon.svg' alt='icono close' width='15px'/>
+                </button>
+              </div>
+              <div class='form-container-modal'>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                  portalId: "8568321",
+                  formId: "4636a244-72e9-4931-885c-866e498b214f"
+                  });
+                </script>
+              </div>
+            </div>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Rediseñamos tu HV clásica a una moderna y actualizada.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Tus datos están seguros y no saldrá de nuestras manos.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Asesoría de diseño personalizado (duración: 20 minutos).</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Redacción y elaboración de perfil profesional.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Entrega de documentos en formato PDF. </p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/LineShortPlans.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Entrega de plantilla editable.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <p class='p-item-plans'>Tiempo de entrega: <strong class='strong-precio'>7</strong> días</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <p class='p-item-plans'>Número de correcciones: <strong class='strong-precio'>1</strong> Corrección</p>
+          </li>
+        </ul>
+        <ul class='list-phone-plans-expert'>
+          <li class='container-precio'>
+            <p class='p-precio'><strong class='strong-precio'>17</strong>,50 USD</p>
+            <button class='expert-button-compra'> Adquirir</button>
+            <div class='modal-expert-form'>
+              <div class='div-button-close'>
+                <h4 class='title-datos-facture'>Datos de facturación</h4>
+                <button class='close-modal-expert'>
+                  <img src='http://joobbi.com/wp-content/uploads/2020/10/CloseIcon.svg' alt='icono close' width='15px'/>
+                </button>
+              </div>
+              <div class='form-container-modal'>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                  hbspt.forms.create({
+                  portalId: "8568321",
+                  formId: "b6ca32fd-f47d-4a51-8308-b222701069b9"
+                });
+                </script>
+              </div>
+            </div>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Rediseñamos tu HV clásica a una moderna y actualizada.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Tus datos están seguros y no saldrá de nuestras manos.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Asesoría de diseño personalizado (duración: 20 minutos).</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Redacción y elaboración de perfil profesional.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Entrega de documentos en formato PDF. </p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+            <p class='p-item-plans'>Entrega de plantilla editable.</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <p class='p-item-plans'>Tiempo de entrega: <strong class='strong-precio'>3</strong> días</p>
+          </li>
+          <li class='list-phone-items-plans'>
+            <p class='p-item-plans'>Número de correcciones: <strong class='strong-precio'>3</strong> Correcciones</p>
+          </li>
+        </ul>
+      </div>
+      <div class='container-plans-items-block'>
+        <div class='flex-compare-plans-items'>
+          <div class="block-compare-1">
+            <h3 class='subtitle-compare-thin'><img src='http://joobbi.com/wp-content/uploads/2020/10/IconoPrecio.svg' alt='icono precio' width='10px' class='margin-image-icon' /> Precio en USD</h3>
+            <h3 class='subtitle-compare-thin'><img src='http://joobbi.com/wp-content/uploads/2020/10/IconoSeguridad.svg' alt='icono seguridad' width='15px' class='margin-image-icon' /> Compra protegida</h3>
+          </div>
+          <div class="block-compare-2">
+            <div class='col-plans-50'>
+              <p class='p-precio'><strong class='strong-precio'>13</strong>,25</p>
+              <button class='basic-button-compra-extends'> Adquirir</button>
+              <div class='modal-basic-form-extends'>
+                <div class='div-button-close'>
+                  <h4 class='title-datos-facture'>Datos de facturación</h4>
+                  <button class='close-modal-basic-extends'>
+                    <img src='http://joobbi.com/wp-content/uploads/2020/10/CloseIcon.svg' alt='icono close' width='15px'/>
+                  </button>
+                </div>
+                <div class='form-container-modal'>
+                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                  <script>
+                    hbspt.forms.create({
+                    portalId: "8568321",
+                    formId: "4636a244-72e9-4931-885c-866e498b214f"
+                    });
+                  </script>
+                </div>
+              </div>
+            </div>
+            <div class='col-plans-50'>
+              <p class='p-precio'><strong class='strong-precio'>17</strong>,50</p>
+              <button class='expert-button-compra-extends'> Adquirir</button>
+              <div class='modal-expert-form-extends'>
+                <div class='div-button-close'>
+                  <h4 class='title-datos-facture'>Datos de facturación</h4>
+                  <button class='close-modal-expert-extends'>
+                    <img src='http://joobbi.com/wp-content/uploads/2020/10/CloseIcon.svg' alt='icono close' width='15px'/>
+                  </button>
+                </div>
+                <div class='form-container-modal'>
+                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                  <script>
+                    hbspt.forms.create({
+                    portalId: "8568321",
+                    formId: "b6ca32fd-f47d-4a51-8308-b222701069b9"
+                  });
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='container-benefits-items'>
+          <div class='flex-compare-plans-items'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Rediseñamos tu HV clásica a una moderna y actualizada.</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items-gray'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Tus datos están seguros y no saldrá de nuestras manos.</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Asesoría de diseño personalizado (duración: 20 minutos).</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items-gray'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Redacción y elaboración de perfil profesional.</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Entrega de documentos en formato PDF</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items-gray'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Entrega de plantilla editable.</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <p class='p-precio'><strong class='strong-precio'>-</strong></p>
+              </div>
+              <div class='col-plans-50'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='30px' class='margin-image-icon'/>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Tiempo de entrega</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <p class='p-precio'><strong class='strong-precio'>7</strong> días</p>
+              </div>
+              <div class='col-plans-50'>
+                <p class='p-precio'><strong class='strong-precio'>3</strong> días</p>
+              </div>
+            </div>
+          </div>
+          <div class='flex-compare-plans-items-gray'>
+            <div class="block-compare-1">
+              <h4 class='subtitle-compare-thin'>Número de correcciones</h4>
+            </div>
+            <div class="block-compare-2">
+              <div class='col-plans-50'>
+                <p class='p-precio'><strong class='strong-precio'>1</strong> correción</p>
+              </div>
+              <div class='col-plans-50'>
+                <p class='p-precio'><strong class='strong-precio'>3</strong> correcciones</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='wrapper-call-to'>
+    <div class='block-call-to'>
+      <div class='flex-container-call-to'>
+          <div class='block-text-button-call'>
+              <div class='container-text-call'>
+                <h2 class='title-preguntas'>Preguntas frecuentes</h2>
+                <div class='answer-block'>
+                  <p class='p-styles-call'>
+                    <img src='http://joobbi.com/wp-content/uploads/2020/10/iconCheckWhite.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                    ¿Qué debo hacer después de realizar el pago?
+                  </p>
+                  <p class='answer-short'>Una vez verificado el pago, nuestro equipo te enviará un correo explicando el proceso, solicitamos tu HV actual y una fotografía ¡No te preocupes tus datos están seguros con nosotros.</p>
+                </div>
+                <div class='answer-block'>
+                  <p class='p-styles-call'>
+                    <img src='http://joobbi.com/wp-content/uploads/2020/10/iconCheckWhite.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                    ¿Si no estoy de acuerdo con el diseño, me devuelven el dinero?
+                  </p>
+                  <p class='answer-short'>Una vez te enviamos el primer borrador para aprobación, realizamos las correcciónes (si son necesarias), luego no realizamos la devolución del dinero.</p>
+                </div>
+                <div class='answer-block'>
+                  <p class='p-styles-call'>
+                    <img src='http://joobbi.com/wp-content/uploads/2020/10/iconCheckWhite.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                    ¿Solo puedo elegir un estilo/diseño de mi curriculum?
+                  </p>
+                  <p class='answer-short'>Para el proceso de diseño acuerdas con el diseñador un estilo, tipografía y colores. Despues, no se podrán agregar elementos diferentes a los acordados previamente.</p>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-block-footer">
+      <div class="wrapper-home">
+        <div class="footer-container">
+          <div class="footer-flex">
+            <span class="logofooter">
+              <p class="logo-footer-case">Joobbi © 2020</p>
+            </span>
+            <ol class="listTerms">
+              <li>
+                <a href="/terminos">Términos</a>
+              </li>
+            </ol>
+            <div class="socialMedia">
+              <a target='_blank' href="https://youTube.com/channel/UCm9SvjlV-2Z4cEdlLgGf8TQ"><img src='http://joobbi.com/wp-content/uploads/2020/10/FacebookIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+              <a target='_blank' href="https://instagram.com/net_540"><img src='http://joobbi.com/wp-content/uploads/2020/10/InstagramIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+              <a target='_blank' href="https://linkedin.com/company/campaña-540"><img src='http://joobbi.com/wp-content/uploads/2020/10/LinkedinIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+              <a target='_blank' href="https://facebook.com/net540"><img src='http://joobbi.com/wp-content/uploads/2020/10/youTubeIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script>
+    // se indica una referencia al query del burguer button en DOM
+    const $burguerMenu = document.querySelector('.burguer-menu')
+    const $burguerMenuCerrar = document.querySelector('.burguer-menu-cerrar')
+    const $burgueIconSub = document.querySelector('.burguer-icon-sub')
+    const $burgueIconInf = document.querySelector('.burguer-icon-inf')
+    const $modalButtonsNav = document.querySelector('.buttons-container')
+    const $body = document.querySelector('body')
+
+    // se indica una referencia al query de los botones de planes en DOM
+    const $basicButton = document.querySelector('.basic-button')
+    const $expertButton = document.querySelector('.expert-button')
+    const $containerExpert = document.querySelector('.list-phone-plans-expert')
+    const $containerBasic = document.querySelector('.list-phone-plans-basic')
+
+    //referencia al button de compra y modales basic
+    const $compraBasic = document.querySelector('.basic-button-compra')
+    const $compraBasicExtends = document.querySelector('.basic-button-compra-extends')
+    const $closeBasic = document.querySelector('.close-modal-basic')
+    const $closeBasicExtends = document.querySelector('.close-modal-basic-extends')
+    const $modalCompraBasic = document.querySelector('.modal-basic-form')
+    const $modalCompraBasicExtends = document.querySelector('.modal-basic-form-extends')
+
+    //referencia al button de compra y modales Expert
+    const $compraExpert = document.querySelector('.expert-button-compra')
+    const $compraExpertExtends = document.querySelector('.expert-button-compra-extends')
+    const $closeExpert = document.querySelector('.close-modal-expert')
+    const $closeExpertExtends = document.querySelector('.close-modal-expert-extends')
+    const $modalCompraExpert = document.querySelector('.modal-expert-form')
+    const $modalCompraExpertExtends = document.querySelector('.modal-expert-form-extends')
+
+    //metodo para activar modal de compra basic
+    $compraBasic.addEventListener('click', () => {
+      $modalCompraBasic.classList.add('active')
+      $modalCompraExpert.classList.remove('active')
+    })
+
+    $closeBasic.addEventListener('click', () => {
+      $modalCompraBasic.classList.remove('active')
+    })
+
+    //metodo para activar modal de compra expert
+    $compraExpert.addEventListener('click', () => {
+      $modalCompraExpert.classList.add('active')
+      $modalCompraBasic.classList.remove('active')
+    })
+
+    $closeExpert.addEventListener('click', () => {
+      $modalCompraExpert.classList.remove('active')
+    })
+
+    //metodo para activar modal de compra basic extends
+    $compraBasicExtends.addEventListener('click', () => {
+      $modalCompraBasicExtends.classList.add('active')
+      $modalCompraExpertExtends.classList.remove('active')
+    })
+
+    $closeBasicExtends.addEventListener('click', () => {
+      $modalCompraBasicExtends.classList.remove('active')
+    })
+
+    //metodo para activar modal de compra expert extends
+    $compraExpertExtends.addEventListener('click', () => {
+      $modalCompraExpertExtends.classList.add('active')
+      $modalCompraBasicExtends.classList.remove('active')
+    })
+
+    $closeExpertExtends.addEventListener('click', () => {
+      $modalCompraExpertExtends.classList.remove('active')
+    })
+
+    // function de activar modal de menu
+    $burguerMenu.addEventListener('click', () => {
+      $burguerMenu.classList.add('desactive')
+      $burguerMenuCerrar.classList.add('active')
+      $burgueIconSub.style.animation = 'iconSub .8s forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s forwards'
+      $modalButtonsNav.classList.add('active')
+      $body.classList.add('hidden')
+    })
+
+    // function desactivar el modal del menu
+    $burguerMenuCerrar.addEventListener('click', () => {
+      $burguerMenu.classList.remove('desactive')
+      $burguerMenuCerrar.classList.remove('active')
+      $burgueIconSub.style.animation = 'iconSub .8s reverse forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s reverse forwards'
+      $modalButtonsNav.classList.remove('active')
+      $body.classList.remove('hidden')
+    })
+
+    // function para activar el plan Basic
+    $basicButton.addEventListener('click', () => {
+      $basicButton.classList.add('active')
+      $expertButton.classList.add('desactive')
+      $containerBasic.classList.add('active')
+      $containerExpert.classList.add('desactive')
+    })
+    // function para activar el plan Expert
+    $expertButton.addEventListener('click', () => {
+      $basicButton.classList.remove('active')
+      $expertButton.classList.remove('desactive')
+      $containerBasic.classList.remove('active')
+      $containerExpert.classList.remove('desactive')
+    })
+
+  </script>
+</body>
+</html>

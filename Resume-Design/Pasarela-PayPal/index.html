@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='styles.css' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Joobbi</title>
+</head>
+<body>
+  <header>
+    <div class= 'block-buttons-inicio'>
+      <div class= 'wrapper-nav-inicio'>
+      <div id='overlay'></div>
+        <div class='container-navBar-Landing'>
+          <div class='logo-container'>
+            <a href='/'>
+              <img width='50px' src='http://joobbi.com/wp-content/uploads/2020/10/logo-Joobbi-Short.svg' alt='logo Joobbi png sin fondo' />
+            </a>  
+          </div>
+          <div class='burguer-menu'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub-'></div>
+              <div class='burguer-icon-inf-'></div>
+            </div>
+          </div>
+          <div class='burguer-menu-cerrar'>
+            <div class='burguer-icon'>
+              <div class='burguer-icon-sub'></div>
+              <div class='burguer-icon-inf'></div>
+            </div>
+          </div>
+          <div class='buttons-container'>
+            <ul class='list-buttons-nav'>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/blog/'>
+                  <button class='button-line-white'>Blog<hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='/somos-joobbi'>
+                  <button class='button-line-white'>Conócenos<hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/soy-freelancer/'>
+                  <button class='button-line-white'> Soy freenlacer<hr class='border-button-botom-line-white'></hr></button>
+                </a>
+              </li>
+              <li class='list-item-nav'>
+                <a href='https://joobbi.com/solicitud-servicios/'>
+                  <button class='button-joobbi-white' onClick={this.abrirModalInicio}> Contacta un freelancer </button>  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class='container-block-hero'></div>
+  <div class='block-form-relative'>
+    <div class='wrapper-details-buy'>
+      <div class='container-flex-pasarela'>
+        <div class='container-product'>
+          <div class='container-cabecera-buy'>
+            <h2 class='resume-buy-title'>Resumen de compra</h2>
+          </div>
+          <div class='details-compra-flex'>
+            <h2 class='resume-buy-title-gray'>Referencia producto:</h2>
+            <p class='p-product-name'>Resume Design Basic</p>
+          </div>
+          <hr/>
+          <div class='details-compra'>
+            <h2 class='resume-buy-title-gray'>Detalles</h2>
+            <ul class='list-phone-plans'>
+              <li class='list-phone-items-plans'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                <p class='p-item-plans'>Rediseñamos tu HV clasica a una moderna y actualizada.</p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                <p class='p-item-plans'>Tus datos estan seguros y no saldrá de nuestras manos.</p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                <p class='p-item-plans'>Asesoria de diseño personalizado (duración: 20 minutos).</p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                <p class='p-item-plans'>Redacción y elaboración de perfil profesional.</p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/IconoCheck.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                <p class='p-item-plans'>Entrega de documentos en formato PDF. </p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <img src='http://joobbi.com/wp-content/uploads/2020/10/LineShortPlans.svg' alt='icono check' width='20px' class='margin-image-icon'/>
+                <p class='p-item-plans'>Entrega de plantilla editable.</p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <p class='p-item-plans'>Tiempo de entrega: <strong class='strong-precio'>7</strong> días</p>
+              </li>
+              <li class='list-phone-items-plans'>
+                <p class='p-item-plans'>Número de correcciones: <strong class='strong-precio'>1</strong> Corrección</p>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class='ilu-pagos'>
+            <img src='http://joobbi.com/wp-content/uploads/2020/10/PASARELA-DE-PAGO-muneca.png' alt='muñeca pagos joobi' />
+          </div> -->
+        </div>
+        <div class='container-detail'>
+          <div class='container-compra-blocks'>
+            <div class='container-resume-compra'>
+              <ul class='list-resume-compra'>
+                <li class='item-resume-compra'>
+                  <h4 class='title-item-resume'>Importe:</h4>
+                  <p class='p-item-resume'>13,25 USD</p>
+                </li>
+                <li class='item-resume-compra'>
+                  <!-- expert: 2MG5DFHQM5FEQ
+                  basic: DXTYGCWQMLP2J -->
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <div class='container-pagos'>
+                      <input class='image-tarjet-credit' type="image" src="http://joobbi.com/wp-content/uploads/2020/10/ButtonPaypal.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <div class='glow'></div>
+                    </div>
+                  </form>
+                </li>
+                <li class='item-resume-compra'>
+                  <h3 class='subtitle-compare-thin'><img src='http://joobbi.com/wp-content/uploads/2020/10/IconoSeguridad.svg' alt='icono seguridad' width='15px' class='margin-image-icon' /> Compra protegida</h3>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class='title-metodos-de-pago'>Metodos de pago</h3>
+              <ul class='list-pagos'>
+                <li class='item-list-pagos'>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <input type="image" src="http://joobbi.com/wp-content/uploads/2020/10/AMERICAN-EXPRESS-icon.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  </form>
+                </li>
+                <li class='item-list-pagos'>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <input type="image" src="http://joobbi.com/wp-content/uploads/2020/10/PAYPAL-icon.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  </form>
+                </li>
+                <li class='item-list-pagos'>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <input type="image" src="http://joobbi.com/wp-content/uploads/2020/10/MASTERCARD-icon.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  </form>
+                </li>
+                <li class='item-list-pagos'>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <input type="image" src="http://joobbi.com/wp-content/uploads/2020/10/DISCOVER-icon.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  </form>
+                </li>
+                <li class='item-list-pagos'>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <input type="image" src="http://joobbi.com/wp-content/uploads/2020/10/VISA-icon.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  </form>
+                </li>
+                <li class='item-list-pagos'>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target='_blank'>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="2MG5DFHQM5FEQ">
+                    <input type="image" src="http://joobbi.com/wp-content/uploads/2020/10/UNIONPAY-icon.svg" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='details-compra-personal'>
+            <p class='datos-personales'>*Sus datos personales se utilizarán para respaldar su experiencia en este sitio web, para administrar el acceso a su cuenta y para otros fines descritos en nuestra política de privacidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-block-footer">
+      <div class="wrapper-home">
+        <div class="footer-container">
+          <div class="footer-flex">
+            <span class="logofooter">
+              <p class="logo-footer-case">Joobbi © 2020</p>
+            </span>
+            <ol class="listTerms">
+              <li class='item-conditions'>
+                <a href="/terminos">Términos</a>
+              </li>
+            </ol>
+            <div class="socialMedia">
+              <a target='_blank' href="https://youTube.com/channel/UCm9SvjlV-2Z4cEdlLgGf8TQ"><img src='http://joobbi.com/wp-content/uploads/2020/10/FacebookIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+              <a target='_blank' href="https://instagram.com/net_540"><img src='http://joobbi.com/wp-content/uploads/2020/10/InstagramIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+              <a target='_blank' href="https://linkedin.com/company/campaña-540"><img src='http://joobbi.com/wp-content/uploads/2020/10/LinkedinIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+              <a target='_blank' href="https://facebook.com/net540"><img src='http://joobbi.com/wp-content/uploads/2020/10/youTubeIcon.svg' alt='icon de facebook png sin fondo'/></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script>
+    const $burguerMenu = document.querySelector('.burguer-menu')
+    const $burguerMenuCerrar = document.querySelector('.burguer-menu-cerrar')
+    const $burgueIconSub = document.querySelector('.burguer-icon-sub')
+    const $burgueIconInf = document.querySelector('.burguer-icon-inf')
+    const $modalButtonsNav = document.querySelector('.buttons-container')
+    const $body = document.querySelector('body')
+
+    $burguerMenu.addEventListener('click', () => {
+      $burguerMenu.classList.add('desactive')
+      $burguerMenuCerrar.classList.add('active')
+      $burgueIconSub.style.animation = 'iconSub .8s forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s forwards'
+      $modalButtonsNav.classList.add('active')
+      $body.classList.add('hidden')
+    })
+
+    $burguerMenuCerrar.addEventListener('click', () => {
+      $burguerMenu.classList.remove('desactive')
+      $burguerMenuCerrar.classList.remove('active')
+      $burgueIconSub.style.animation = 'iconSub .8s reverse forwards'
+      $burgueIconInf.style.animation = 'iconInf .8s reverse forwards'
+      $modalButtonsNav.classList.remove('active')
+      $body.classList.remove('hidden')
+    })
+  </script>
+</body>
+</html>

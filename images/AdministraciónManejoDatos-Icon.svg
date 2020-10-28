@@ -1,0 +1,67 @@
+<svg width="47" height="50" viewBox="0 0 47 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="39.3347" cy="10.3819" r="1.16534" transform="rotate(90 39.3347 10.3819)" stroke="white"/>
+<path d="M38 9.99976L36.1733 9.99976C35.7094 9.99976 35.3333 9.62367 35.3333 9.15974L35.3333 8.83977C35.3333 8.37584 34.9572 7.99976 34.4933 7.99976L30 7.99976" stroke="white" stroke-linecap="round"/>
+<circle r="1.16534" transform="matrix(1.31134e-07 -1 -1 -1.31134e-07 39.2878 1.66547)" stroke="white"/>
+<path d="M38 1.99976L36.1733 1.99976C35.7094 1.99976 35.3333 2.37584 35.3333 2.83977L35.3333 3.15974C35.3333 3.62367 34.9572 3.99976 34.4933 3.99976L30 3.99976" stroke="white" stroke-linecap="round"/>
+<path d="M44 7.49976C43.1716 7.49976 42.5 6.82818 42.5 5.99976C42.5 5.17133 43.1716 4.49976 44 4.49976C44.8284 4.49976 45.5 5.17133 45.5 5.99976C45.5 6.82818 44.8284 7.49976 44 7.49976Z" stroke="white"/>
+<path d="M42 5.99976L30 5.99976" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="7.66534" cy="1.66548" r="1.16534" transform="rotate(-90 7.66534 1.66548)" stroke="white"/>
+<path d="M9 2.04761L10.8267 2.04761C11.2906 2.04761 11.6667 2.4237 11.6667 2.88762L11.6667 3.20759C11.6667 3.67152 12.0428 4.04761 12.5067 4.04761L17 4.04761" stroke="white" stroke-linecap="round"/>
+<circle r="1.16534" transform="matrix(-2.18557e-07 1 1 2.18557e-07 7.71416 10.3819)" stroke="white"/>
+<path d="M9 10.0476L10.8267 10.0476C11.2906 10.0476 11.6667 9.67152 11.6667 9.20759L11.6667 8.88762C11.6667 8.42369 12.0428 8.04761 12.5067 8.04761L17 8.04761" stroke="white" stroke-linecap="round"/>
+<path d="M3 4.54761C3.82843 4.54761 4.5 5.21918 4.5 6.04761C4.5 6.87603 3.82843 7.54761 3 7.54761C2.17157 7.54761 1.5 6.87603 1.5 6.04761C1.5 5.21918 2.17157 4.54761 3 4.54761Z" stroke="white"/>
+<path d="M5 6.04761L17 6.04761" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25.9231 10.0136L23.5 11.0481M23.5 11.0481L19 8.97913V3.11706M23.5 11.0481V5.18603M19 3.11706L23.5 1.0481L28 3.11706M19 3.11706L23.5 5.18603M28 3.11706L23.5 5.18603M28 3.11706V8.97913L27.3077 9.32396" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="8.17383" y="46.5059" width="30.9728" height="2.99381" rx="1.4969" stroke="white"/>
+<path d="M15.3477 46.0062C16.6266 45.0985 18.9286 42.8293 17.9055 41.0139" stroke="white" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M32.2285 46.0059C30.9496 45.0982 28.6476 42.829 29.6707 41.0137" stroke="white" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M2 13.5H16.2692H30.7308H45C45.8284 13.5 46.5 14.1716 46.5 15V38.8262C46.5 39.6546 45.8284 40.3262 45 40.3262H2C1.17157 40.3262 0.5 39.6546 0.5 38.8262V15C0.5 14.1716 1.17157 13.5 2 13.5Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1 36.3018H46" stroke="white"/>
+<path d="M4 38.2588H10" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 38.2588H14" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 16H13.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 34L39 34" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M43.5 16L43 16" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.5 16L41 16" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.5 16L39 16" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.1667 21.1667H10C9.44772 21.1667 9 21.6145 9 22.1667V32.6667C9 33.219 9.44772 33.6667 10 33.6667H25.5C26.0523 33.6667 26.5 33.219 26.5 32.6667V22.1283" stroke="white"/>
+<path d="M11.084 23.25H11.5007" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.75 23.2502H17.3333" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.084 24.9172H11.5007" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.75 24.9167H17.3333" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.084 26.5833H11.5007" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.75 26.5833H17.3333" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="20.0417" cy="26.3749" r="0.641667" stroke="white" stroke-width="0.8"/>
+<circle cx="20.8757" cy="23.8749" r="0.641667" stroke="white" stroke-width="0.8"/>
+<path d="M24.4827 24.9166C24.4827 25.1835 24.2663 25.3999 23.9993 25.3999C23.7324 25.3999 23.516 25.1835 23.516 24.9166C23.516 24.6496 23.7324 24.4333 23.9993 24.4333C24.2663 24.4333 24.4827 24.6496 24.4827 24.9166Z" stroke="white" stroke-width="0.7"/>
+<path d="M20.25 25.75L20.6667 24.5" stroke="white" stroke-width="0.8"/>
+<path d="M21.5 24.0833L23.5833 24.9166" stroke="white" stroke-width="0.8"/>
+<circle cx="25.2507" cy="19.9167" r="2.41667" stroke="white"/>
+<path d="M24 24.5L24.8333 22" stroke="white" stroke-width="0.8"/>
+<mask id="path-40-inside-1" fill="white">
+<rect x="10.666" y="28.6667" width="1.66667" height="3.33333" rx="0.5"/>
+</mask>
+<rect x="10.666" y="28.6667" width="1.66667" height="3.33333" rx="0.5" stroke="white" stroke-width="1.2" mask="url(#path-40-inside-1)"/>
+<mask id="path-41-inside-2" fill="white">
+<rect x="13.166" y="29.5" width="1.66667" height="2.5" rx="0.5"/>
+</mask>
+<rect x="13.166" y="29.5" width="1.66667" height="2.5" rx="0.5" stroke="white" stroke-width="1.2" mask="url(#path-41-inside-2)"/>
+<mask id="path-42-inside-3" fill="white">
+<rect x="15.666" y="28.6667" width="1.66667" height="3.33333" rx="0.5"/>
+</mask>
+<rect x="15.666" y="28.6667" width="1.66667" height="3.33333" rx="0.5" stroke="white" stroke-width="1.2" mask="url(#path-42-inside-3)"/>
+<mask id="path-43-inside-4" fill="white">
+<rect x="20.666" y="30.3333" width="1.66667" height="1.66667" rx="0.5"/>
+</mask>
+<rect x="20.666" y="30.3333" width="1.66667" height="1.66667" rx="0.5" stroke="white" stroke-width="1.2" mask="url(#path-43-inside-4)"/>
+<mask id="path-44-inside-5" fill="white">
+<rect x="18.166" y="30.3333" width="1.66667" height="1.66667" rx="0.5"/>
+</mask>
+<rect x="18.166" y="30.3333" width="1.66667" height="1.66667" rx="0.5" stroke="white" stroke-width="1.2" mask="url(#path-44-inside-5)"/>
+<circle cx="34" cy="27.8333" r="4.6" stroke="white" stroke-width="0.8"/>
+<circle cx="33.9993" cy="27.8328" r="2.93333" stroke="white" stroke-width="0.8"/>
+<circle cx="34.0007" cy="27.8329" r="1.26667" stroke="white" stroke-width="0.8"/>
+<path d="M34 23.2495V24.9162" stroke="white" stroke-width="0.8"/>
+<path d="M34 23.2495V24.9162" stroke="white" stroke-width="0.8"/>
+<path d="M31.5 29.9163L30.25 30.7496M36.5 29.9163L37.75 30.7496" stroke="white"/>
+</svg>
